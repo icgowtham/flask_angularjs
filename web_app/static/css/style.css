@@ -1,0 +1,162 @@
+body.navbar-affixed-top {
+	padding-top: 70px;
+}
+
+body.navbar-affixed-bottom {
+	padding-bottom: 50px;
+}
+
+.navbar a {
+	cursor: pointer;
+}
+
+/*.navbar {
+	border-radius: 0;
+	border-bottom: 1px solid #bbb;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.navbar-dark {
+	color: #2E2D2C;
+}
+ 
+.navbar-brand>img {
+	height: 50%;
+	padding: 10px;
+	width: auto;
+}
+
+*/
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+		border-bottom: 1px solid #bbb;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.navbar-brand {
+	padding: 0px;
+  margin-left: 0;
+  float: left;
+  display: inline-block;	
+}
+
+.bg-dark {
+	  background-color: ##2E2D2C !important;
+}
+
+.check input {
+	margin-top: 12px;
+}
+
+.check label {
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 12px;
+	margin-top: 12px;
+	clear: left;
+}
+
+.header h1 {
+	top: 18px;
+	left: 12px;
+}
+
+body {
+	font: 20px "Montserrat", sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7;
+}
+
+* {
+	color: black;
+	font-size: 12px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	display: inline; 
+	color: white;
+}
+
+/*
+h3 {
+	text-align: center;
+	background-color: #778899;
+	color: white;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	width: 500px;
+}
+
+h5 {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	width: 500px;
+}
+*/
+
+p {
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+pre {
+	font-family: "Courier";
+}
+
+.pass_better {
+	/* Dark Green */
+	background-color: #41A317;
+	color: white;
+}
+
+.pass_same {}
+
+.fail_warning {
+	/* Orange */
+	background-color: #F87217;
+	color: white;
+}
+
+.fail_severe {
+	/* Dark red */
+	background-color: #C11B17;
+	color: white;
+}
+
+.bg-1 { 
+	background-color: #ffffff; /* White */
+  color: #555555;
+}
+
+.bg-2 { 
+  background-color: #2f2f2f; /* Black Gray */
+	color: #fff;
+}
+
+iframe {
+	background-image: url("/static/images/loading.gif");
+	background-repeat: no-repeat;
+}
+

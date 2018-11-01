@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>App Title</title>
+      <link href="/static/css/lib/bootstrap/bootstrap.css" rel="stylesheet" >
+      <link href="/static/css/style.css" rel="stylesheet">
+      <link href="/static/images/favicon.ico" rel="icon">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   </head>
+   <body ng-app="myApp">
+      <!-- HEADER AND NAVBAR -->
+      <header>
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+               <div class="container">
+                  <div class="navbar-header">
+                     <a class="navbar-brand" href="">
+                     <img src="/static/images/alt_site.png" alt="SANDVINE">
+                     </a>
+                  </div>
+                  <ul class="navbar-nav navbar-pills nav-fill">
+                     <h2 class="title">App Title</h2>
+                  </ul>
+                  <ul class="navbar-nav navbar-pills nav-fill">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#help">Help</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- MAIN CONTENT AND INJECTED VIEWS -->
+      <div id="main" class="container-fluid bg-1 text-center">
+         <!-- angular templating -->
+         <!-- this is where content will be injected -->
+         <div ng-view></div>
+      </div>
+      <script src="/static/js/lib/jquery-3.3.1.min.js"></script>
+      <script src="/static/js/lib/bootstrap/bootstrap.min.js"></script>
+      <script src="/static/js/lib/angular/angular.min.js"></script>
+      <script src="/static/js/lib/angular/angular-route.min.js"></script>
+      <script src="/static/js/lib/sweetalert.min.js"></script>
+      <script src="/static/js/app.js"></script>
+      <script src="/static/js/services.js"></script>
+      <script src="/static/js/controllers.js"></script>
+      <footer class="container-fluid bg-2 text-center">
+         <p class="bg-2 text-center">
+            &copy <script>document.write(new Date().getFullYear())</script> <a href="#">LINK</a>
+         </p>
+      </footer>
+   </body>
+</html>
