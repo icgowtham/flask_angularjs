@@ -4,7 +4,7 @@
 class Config(object):
     DEBUG = False
     TESTING = False
-    ADMIN_EMAIL = "igowtham@sandvine.com"
+    ADMIN_EMAIL = "ic.gowtham@gmail.com"
 
 
 class ProductionConfig(Config):
